@@ -12,7 +12,7 @@ const ShowInstallApp = ({ inst }) => {
         const ConvertedStoredAppId = storedAppData.map(idNum => parseInt(idNum));
         const updatedApps = ConvertedStoredAppId.filter(appId => appId !== id);
         localStorage.setItem('installed', JSON.stringify(updatedApps));
-        console.log(`App ID ${id} uninstalled`);
+        // console.log(`App ID ${id} uninstalled`);
     };
 
     return (

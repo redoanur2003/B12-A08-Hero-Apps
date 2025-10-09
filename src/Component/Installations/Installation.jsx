@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { getStoredApp } from '../Storage/storeData';
 import ShowInstallApp from './ShowInstallApp';
+import { NavLink } from 'react-router';
 
 const Installation = () => {
     const [installed, setInstalled] = useState([]);
     const [sort, setSort] = useState('');
     const data = useLoaderData();
-    const { size } = data;
     useEffect(() => {
         const storedAppData = getStoredApp();
         const ConvertedStoredAppId = storedAppData.map(id => parseInt(id))
@@ -16,9 +16,23 @@ const Installation = () => {
     }, [])
 
     const handleSort = (type) => {
-        // console.log('sorted')
+        // console.log("Sorting")
 
+        if (type === "High") {
+            type = 'High to Low'
+            setSort(type);
+            const sortedByHigh = [...installed].sort((a, b) => b.size - a.size);
+            setInstalled(sortedByHigh);
+            // console.log(sortedByHigh)
+        }
+        if (type === "Low") {
+            type = 'Loe to High'
+            setSort(type);
+            const sortedByLow = [...installed].sort((a, b) => a.size - b.size);
+            setInstalled(sortedByLow);
+        }
     }
+
 
     // console.log(installed)
     return (
@@ -31,8 +45,8 @@ const Installation = () => {
                 <details className="dropdown bg-white">
                     <summary className="btn m-1 bg-white text-black">sort by : {sort ? sort : ""}</summary>
                     <ul className="menu dropdown-content bg-white rounded-box z-1 w-52 p-2 shadow-sm">
-                        <li><a onClick={() => handleSort("High_Low")}>High-Low</a></li>
-                        <li><a onClick={() => handleSort("Low_High")}>Low-High</a></li>
+                        <li><a onClick={() => handleSort("High")}>High to Low</a></li>
+                        <li><a onClick={() => handleSort("Low")}>Low to High</a></li>
                     </ul>
                 </details>
             </div>
@@ -41,6 +55,13 @@ const Installation = () => {
                 {installed.map(inst =>
                     <ShowInstallApp key={inst.id} inst={inst}></ShowInstallApp>
                 )}
+            </div>
+
+            <div className={`flex mt-6 flex-col text-center justify-center ${installed.length === 0 ? 'hidden' : 'visible'}`}>
+                <p className='text-xl font-semibold'>Reload the page to check the app is uninstalled.</p>
+                <NavLink to='/installation'>
+                    <button className='btn'>Reload</button>
+                </NavLink>
             </div>
         </div>
     );
