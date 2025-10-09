@@ -1,14 +1,26 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { Search } from 'lucide-react';
 import AllAppsData from './AllAppsData';
+import LoadingSpinner from '../Loader/LoadingSpinner';
 const App = () => {
     const allApp = useLoaderData();
     const [search, setSearch] = useState('');
+    const [filteredApps, setFilteredApps] = useState(allApp);
+    const [loading, setLoading] = useState(false);
 
-    const filteredApps = allApp.filter(app =>
-        app.title.toLowerCase().includes(search.toLowerCase())
-    );
+    useEffect(() => {
+        setLoading(true);
+        const delay = setTimeout(() => {
+            const result = allApp.filter(app =>
+                app.title.toLowerCase().includes(search.toLowerCase())
+            );
+            setFilteredApps(result);
+            setLoading(false);
+        }, 400);
+
+        return () => clearTimeout(delay);
+    }, [search, allApp]);
 
 
     // console.log(allApp)
@@ -27,7 +39,11 @@ const App = () => {
                 </div>
             </div>
 
-            {filteredApps.length > 0 ? (
+            {loading ? (
+                <div className='flex justify-center mt-16'>
+                    <LoadingSpinner></LoadingSpinner>
+                </div>
+            ) : filteredApps.length > 0 ? (
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mt-10 gap-6'>
                     {filteredApps.map(allData => (
                         <AllAppsData key={allData.id} allData={allData}></AllAppsData>

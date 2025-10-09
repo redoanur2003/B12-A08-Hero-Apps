@@ -7,15 +7,17 @@ const Installation = () => {
     const [installed, setInstalled] = useState([]);
     const [sort, setSort] = useState('');
     const data = useLoaderData();
+    const { size } = data;
     useEffect(() => {
         const storedAppData = getStoredApp();
-        const ConvertedStoredApps = storedAppData.map(id => parseInt(id))
-        const installedApp = data.filter(app => ConvertedStoredApps.includes(app.id));
+        const ConvertedStoredAppId = storedAppData.map(id => parseInt(id))
+        const installedApp = data.filter(app => ConvertedStoredAppId.includes(app.id));
         setInstalled(installedApp)
     }, [])
 
-    const handleSort = (data) => {
-        console.log('sorted')
+    const handleSort = (type) => {
+        // console.log('sorted')
+
     }
 
     // console.log(installed)
@@ -29,8 +31,8 @@ const Installation = () => {
                 <details className="dropdown bg-white">
                     <summary className="btn m-1 bg-white text-black">sort by : {sort ? sort : ""}</summary>
                     <ul className="menu dropdown-content bg-white rounded-box z-1 w-52 p-2 shadow-sm">
-                        <li><a onClick={() => handleSort("")}>High-Low</a></li>
-                        <li><a onClick={() => handleSort("")}>Low-High</a></li>
+                        <li><a onClick={() => handleSort("High_Low")}>High-Low</a></li>
+                        <li><a onClick={() => handleSort("Low_High")}>Low-High</a></li>
                     </ul>
                 </details>
             </div>

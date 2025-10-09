@@ -7,6 +7,7 @@ import Installation from '../../Component/Installations/Installation';
 import Error from '../../Component/ErrorPage/Error';
 import SingleApp from '../../Component/SingleApp/SingleApp';
 import ErrorApp from '../../Component/ErrorApp/ErrorApp';
+import LoadingSpinner from '../../Component/Loader/LoadingSpinner';
 
 
 export const router = createBrowserRouter([
@@ -14,7 +15,7 @@ export const router = createBrowserRouter([
         path: '/',
         Component: Root,
         errorElement: <Error></Error>,
-        hydrateFallbackElement: <h1 className='text-5xl'>Loading.....................</h1>,
+        hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>,
         children: [
             {
                 index: true, path: '/', Component: Home,
