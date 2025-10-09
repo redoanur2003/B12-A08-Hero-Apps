@@ -1,0 +1,266 @@
+[
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+        "title": "WhatsApp",
+        "companyName": "WhatsApp LLC",
+        "id": 1,
+        "description": "WhatsApp Messenger is a free messaging and video calling application that enables users to stay connected with friends and family across the world. It allows real-time communication, group chats, media sharing, and secure end-to-end encryption to ensure privacy. With continuous updates, WhatsApp offers features like voice messages, disappearing chats, and cross-platform synchronization.",
+        "size": 120,
+        "reviews": 152000000,
+        "ratingAvg": 4.5,
+        "downloads": 5,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1200000
+            },
+            {
+                "name": "2 star",
+                "count": 3500000
+            },
+            {
+                "name": "3 star",
+                "count": 7000000
+            },
+            {
+                "name": "4 star",
+                "count": 22000000
+            },
+            {
+                "name": "5 star",
+                "count": 122000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384015.png",
+        "title": "Instagram",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 2,
+        "description": "Instagram is a social media platform that lets users capture, edit, and share photos and videos with their followers. It also provides features like Reels, Stories, and Live broadcasting for real-time interaction. Users can explore content from creators around the world, shop within the app, and stay updated with the latest trends.",
+        "size": 160,
+        "reviews": 125000000,
+        "ratingAvg": 4.3,
+        "downloads": 3,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4200000
+            },
+            {
+                "name": "2 star",
+                "count": 6500000
+            },
+            {
+                "name": "3 star",
+                "count": 12000000
+            },
+            {
+                "name": "4 star",
+                "count": 29000000
+            },
+            {
+                "name": "5 star",
+                "count": 73000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968830.png",
+        "title": "Spotify Music",
+        "companyName": "Spotify AB",
+        "id": 3,
+        "description": "Spotify is a global music streaming platform that provides access to millions of songs, albums, and podcasts from artists across the globe. Users can create playlists, discover new releases, and enjoy personalized recommendations. Spotify also offers premium subscriptions with offline listening, ad-free playback, and high-quality audio.",
+        "size": 90,
+        "reviews": 98000000,
+        "ratingAvg": 4.4,
+        "downloads": 1,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2800000
+            },
+            {
+                "name": "2 star",
+                "count": 4100000
+            },
+            {
+                "name": "3 star",
+                "count": 8500000
+            },
+            {
+                "name": "4 star",
+                "count": 25000000
+            },
+            {
+                "name": "5 star",
+                "count": 60000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+        "title": "YouTube",
+        "companyName": "Google LLC",
+        "id": 4,
+        "description": "YouTube is the world’s largest video-sharing platform where users can upload, watch, and share videos across various categories like music, education, entertainment, and more. It supports creators with monetization options and offers YouTube Premium for an ad-free experience with background play and downloads.",
+        "size": 180,
+        "reviews": 210000000,
+        "ratingAvg": 4.5,
+        "downloads": 1,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2500000
+            },
+            {
+                "name": "2 star",
+                "count": 5200000
+            },
+            {
+                "name": "3 star",
+                "count": 9800000
+            },
+            {
+                "name": "4 star",
+                "count": 36000000
+            },
+            {
+                "name": "5 star",
+                "count": 160000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384015.png",
+        "title": "Facebook",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 5,
+        "description": "Facebook is a global social networking application designed to help people connect with friends, family, and communities. It allows users to share updates, photos, videos, and memories. With features like Marketplace, Watch, and Groups, Facebook continues to evolve into an all-in-one communication platform.",
+        "size": 200,
+        "reviews": 170000000,
+        "ratingAvg": 4.1,
+        "downloads": 5,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 8200000
+            },
+            {
+                "name": "2 star",
+                "count": 9500000
+            },
+            {
+                "name": "3 star",
+                "count": 11000000
+            },
+            {
+                "name": "4 star",
+                "count": 28000000
+            },
+            {
+                "name": "5 star",
+                "count": 112000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+        "title": "Twitter (X)",
+        "companyName": "X Corp.",
+        "id": 6,
+        "description": "X (formerly Twitter) is a social platform for real-time information sharing and microblogging. It enables users to post, follow, and engage in conversations on trending topics, politics, sports, and global news. With its recent transformation, X integrates payment options and content monetization tools for creators.",
+        "size": 110,
+        "reviews": 89000000,
+        "ratingAvg": 4.2,
+        "downloads": 15,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3500000
+            },
+            {
+                "name": "2 star",
+                "count": 5000000
+            },
+            {
+                "name": "3 star",
+                "count": 9000000
+            },
+            {
+                "name": "4 star",
+                "count": 22000000
+            },
+            {
+                "name": "5 star",
+                "count": 50000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968534.png",
+        "title": "Gmail",
+        "companyName": "Google LLC",
+        "id": 7,
+        "description": "Gmail is a secure and reliable email service from Google that offers cloud-based email communication with advanced spam filtering, smart replies, and integration with Google Workspace. It supports synchronization across all devices, making it one of the most trusted platforms for personal and business communication.",
+        "size": 130,
+        "reviews": 115000000,
+        "ratingAvg": 4.6,
+        "downloads": 5,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500000
+            },
+            {
+                "name": "2 star",
+                "count": 2500000
+            },
+            {
+                "name": "3 star",
+                "count": 7000000
+            },
+            {
+                "name": "4 star",
+                "count": 20000000
+            },
+            {
+                "name": "5 star",
+                "count": 85000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968872.png",
+        "title": "TikTok",
+        "companyName": "ByteDance Ltd.",
+        "id": 8,
+        "description": "TikTok is a short-form video-sharing app that allows users to create, edit, and share entertaining clips with music, effects, and filters. It has redefined social media engagement by promoting viral trends, challenges, and creative storytelling, attracting millions of creators worldwide.",
+        "size": 150,
+        "reviews": 99000000,
+        "ratingAvg": 4.4,
+        "downloads": 3,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4000000
+            },
+            {
+                "name": "2 star",
+                "count": 6000000
+            },
+            {
+                "name": "3 star",
+                "count": 8000000
+            },
+            {
+                "name": "4 star",
+                "count": 24000000
+            },
+            {
+                "name": "5 star",
+                "count": 61000000
+            }
+        ]
+    }
+]
