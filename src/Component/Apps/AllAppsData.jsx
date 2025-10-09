@@ -7,10 +7,10 @@ const AllAppsData = ({ allData }) => {
     return (
         <div>
             <Link to={`/app/${id}`}>
-                <div className=' p-4 w-auto h-auto bg-white rounded-xl shadow-xl'>
-                    <img className='bg-gray-500 rounded-4xl' src={image} alt="" />
+                <div className='p-2 md:p-4 w-auto h-auto bg-white rounded-xl shadow-xl'>
+                    <img className={`w-32 mx-6 sm:mx-0 p-2 bg-gray-500 sm:w-auto rounded-4xl`} src={image} alt="" />
                     <p className='font-medium text-xl'>{title}</p>
-                    <div className='flex justify-between'>
+                    <div className='flex gap-4 justify-between'>
                         <span className='flex gap-2'>
                             <img className='w-6 h-6' src={down} alt="" />
                             <p>{downloads}M</p>

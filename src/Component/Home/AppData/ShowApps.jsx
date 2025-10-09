@@ -9,8 +9,8 @@ const ShowApps = ({ appsData }) => {
     return (
         <Link to={`/app/${id}`}>
             <div>
-                <div className=' p-4 w-auto h-auto bg-white rounded-xl shadow-xl'>
-                    <img className='bg-gray-500 rounded-4xl' src={image} alt="" />
+                <div className='p-1 md:p-4 w-auto h-auto bg-white rounded-xl shadow-xl'>
+                    <img className='w-32 mx-6 sm:mx-0 bg-gray-500 sm:w-auto rounded-4xl' src={image} alt="" />
                     <p className='font-medium text-xl'>{title}</p>
                     <div className='flex justify-between'>
                         <span className='flex gap-2'>

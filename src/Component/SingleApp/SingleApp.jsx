@@ -6,6 +6,7 @@ import rev from '../../assets/icon-review.png';
 import './SingleApp.css';
 import Chart from './Chart';
 import { addToStoredApp, getStoredApp } from '../Storage/storeData';
+import { toast } from 'react-toastify';
 
 const SingleApp = () => {
     const { appId } = useParams();
@@ -25,10 +26,14 @@ const SingleApp = () => {
 
         const storedApps = getStoredApp();
         if (storedApps.includes(id)) {
-            alert('App already installed')
+            console.log("what");
+            toast('App already Installed🤔');
         } else {
             addToStoredApp(id);
+            console.log("ok");
+
             setIsInstalled(true);
+            toast('App Installed Successfully!');
         }
         // localStorage.clear('installed')
     };

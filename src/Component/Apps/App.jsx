@@ -25,7 +25,7 @@ const App = () => {
 
     // console.log(allApp)
     return (
-        <div className='p-20'>
+        <div className='p-1 md:p-20'>
             <h1 className='font-bold text-center text-5xl'>Our All Applications</h1>
             <p className='font-normal text-2xl text-gray-500 text-center mt-6'>Explore All Apps on the Market developed by us. We code for Millions</p>
 
@@ -44,7 +44,7 @@ const App = () => {
                     <LoadingSpinner></LoadingSpinner>
                 </div>
             ) : filteredApps.length > 0 ? (
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mt-10 gap-6'>
+                <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 mt-10 gap-6'>
                     {filteredApps.map(allData => (
                         <AllAppsData key={allData.id} allData={allData}></AllAppsData>
                     ))}

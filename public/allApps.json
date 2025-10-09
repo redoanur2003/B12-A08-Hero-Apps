@@ -1,6 +1,6 @@
 [
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/WhatsApp_Logo_green.svg/330px-WhatsApp_Logo_green.svg.png",
         "title": "WhatsApp",
         "companyName": "WhatsApp LLC",
         "id": 1,
@@ -33,7 +33,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384015.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png",
         "title": "Instagram",
         "companyName": "Meta Platforms, Inc.",
         "id": 2,
@@ -66,7 +66,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968830.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/768px-Spotify_icon.svg.png?20220821125323",
         "title": "Spotify Music",
         "companyName": "Spotify AB",
         "id": 3,
@@ -132,7 +132,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384015.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/800px-2023_Facebook_icon.svg.png",
         "title": "Facebook",
         "companyName": "Meta Platforms, Inc.",
         "id": 5,
@@ -165,7 +165,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+        "image": "https://play-lh.googleusercontent.com/A-Rnrh0J7iKmABskTonqFAANRLGTGUg_nuE4PEMYwJavL3nPt5uWsU2WO_DSgV_mOOM=w480-h960-rw",
         "title": "Twitter (X)",
         "companyName": "X Corp.",
         "id": 6,
@@ -231,7 +231,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968872.png",
+        "image": "https://play-lh.googleusercontent.com/sUXm7uP_c8ysJqwOkbmIpBnDee_6lJJCPODRP4DOCuFWp9Gq-_X_oqY9NTJ2OIEGtQ=w480-h960-rw",
         "title": "TikTok",
         "companyName": "ByteDance Ltd.",
         "id": 8,
@@ -264,7 +264,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968853.png",
+        "image": "https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI=w480-h960-rw",
         "title": "Netflix",
         "companyName": "Netflix, Inc.",
         "id": 9,
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888846.png",
+        "image": "https://play-lh.googleusercontent.com/KxeSAjPTKliCErbivNiXrd6cTwfbqUJcbSRPe_IBVK_YmwckfMRS1VIHz-5cgT09yMo=w480-h960-rw",
         "title": "Snapchat",
         "companyName": "Snap Inc.",
         "id": 10,
@@ -363,7 +363,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+        "image": "https://play-lh.googleusercontent.com/yZsmiNjmji3ZoOuLthoVvptLB9cZ0vCmitcky4OUXNcEFV3IEQkrBD2uu5kuWRF5_ERA=w480-h960-rw",
         "title": "Zoom",
         "companyName": "Zoom Video Communications",
         "id": 12,
@@ -429,7 +429,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384017.png",
+        "image": "https://play-lh.googleusercontent.com/6CFQQ0b9r5fzF1v6f0gIirWsOGL7sGWkJifuUQxxhbCMcBx5aSG_cNXpjDKDn5c1jwjq=w480-h960-rw",
         "title": "Pinterest",
         "companyName": "Pinterest, Inc.",
         "id": 14,
@@ -462,7 +462,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888848.png",
+        "image": "https://play-lh.googleusercontent.com/5hqcg29p7TkwDWchqG41kMDgoa_IXSUgt9ilfft3ZF2scKW_9Jz5511HPAAqVbVKRQ=w480-h960-rw",
         "title": "Skype",
         "companyName": "Microsoft Corporation",
         "id": 15,
@@ -495,7 +495,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888833.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dropbox_Icon.svg/2202px-Dropbox_Icon.svg.png",
         "title": "Dropbox",
         "companyName": "Dropbox, Inc.",
         "id": 16,
@@ -528,7 +528,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+        "image": "https://play-lh.googleusercontent.com/t-juVwXA8lDAk8uQ2L6d6K83jpgQoqmK1icB_l9yvhIAQ2QT_1XbRwg5IpY08906qEw=w480-h960-rw",
         "title": "Google Drive",
         "companyName": "Google LLC",
         "id": 17,
@@ -561,7 +561,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888825.png",
+        "image": "https://play-lh.googleusercontent.com/Kf8WTct65hFJxBUDm5E-EpYsiDoLQiGGbnuyP6HBNax43YShXti9THPon1YKB6zPYpA=w480-h960-rw",
         "title": "Google Maps",
         "companyName": "Google LLC",
         "id": 18,
@@ -594,7 +594,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888840.png",
+        "image": "https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA=w480-h960-rw",
         "title": "Google Photos",
         "companyName": "Google LLC",
         "id": 19,
@@ -627,7 +627,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888849.png",
+        "image": "https://play-lh.googleusercontent.com/n109V9dur2NFwV7Fbr8lwlU-isXRR0K7Q-pvp1LCyRwTVP2DfJaR-dklmXzK0MhQuz9E=w480-h960-rw",
         "title": "Uber",
         "companyName": "Uber Technologies Inc.",
         "id": 20,
@@ -660,7 +660,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888866.png",
+        "image": "https://play-lh.googleusercontent.com/7ynvVIRdhJNAngCg_GI7i8TtH8BqkJYmffeUHsG-mJOdzt1XLvGmbsKuc5Q1SInBjDKN=w480-h960-rw",
         "title": "Spotify Podcasts",
         "companyName": "Spotify AB",
         "id": 21,
@@ -693,7 +693,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888893.png",
+        "image": "https://play-lh.googleusercontent.com/52_DMY5417awaEgJf3_9mWgEuO2t1JfkGab8kM-LD6l5u6cGm_1-GsoQ_IyWFHdbkA=w480-h960-rw",
         "title": "Steam",
         "companyName": "Valve Corporation",
         "id": 22,
@@ -726,7 +726,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888850.png",
+        "image": "https://play-lh.googleusercontent.com/K6L_Ixmw0J9oTktAoHyEHvzQIfxEF1CIQ5aE0WHhdUeOgfAmn7KLhe47Q5XxZaXQ0g=w480-h960-rw",
         "title": "WhatsApp Business",
         "companyName": "Meta Platforms, Inc.",
         "id": 23,
@@ -759,7 +759,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888894.png",
+        "image": "https://assets.mofoprod.net/network/images/discord.original_O7AzcAH.jpg",
         "title": "Discord",
         "companyName": "Discord, Inc.",
         "id": 24,
@@ -792,7 +792,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+        "image": "https://play-lh.googleusercontent.com/jKU64njy8urP89V1O63eJxMtvWjDGETPlHVIhDv9WZAYzsSxRWyWZkUlBJZj_HbkHA=w480-h960-rw",
         "title": "Microsoft Teams",
         "companyName": "Microsoft Corporation",
         "id": 25,
@@ -825,7 +825,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888858.png",
+        "image": "https://play-lh.googleusercontent.com/mzJpTCsTW_FuR6YqOPaLHrSEVCSJuXzCljdxnCKhVZMcu6EESZBQTCHxMh8slVtnKqo=w480-h960-rw",
         "title": "Slack",
         "companyName": "Slack Technologies",
         "id": 26,
@@ -858,7 +858,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888920.png",
+        "image": "https://play-lh.googleusercontent.com/pwzZK-7oQexraeU0mOrQgFIck-QSS89rH0eWjehctp8XskRSpixPNVlA0YYlRXHbA2Iz=w480-h960-rw",
         "title": "Audible",
         "companyName": "Audible, Inc.",
         "id": 27,
@@ -891,7 +891,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888885.png",
+        "image": "https://play-lh.googleusercontent.com/AG8XbjoQYxnumb_bTpw_y_cbrKwYdOOnUNtvQPUZ8DCtVDjuGxGKpY4AbaMtFhjhdvE=w240-h480-rw",
         "title": "Kindle",
         "companyName": "Amazon.com, Inc.",
         "id": 28,
@@ -924,7 +924,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888846.png",
+        "image": "https://play-lh.googleusercontent.com/wKJ5hN5CmSBWXPBVYYuRENzcEVb7FB6NyibjKqPT4SB0eoZ7Fww2jq-OhUDCxEPGALrSekQaazrHLSBwVb6T4A=w480-h960-rw",
         "title": "HBO Max",
         "companyName": "WarnerMedia",
         "id": 29,
@@ -957,7 +957,7 @@
         ]
     },
     {
-        "image": "https://cdn-icons-png.flaticon.com/512/888/888927.png",
+        "image": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA=w480-h960-rw",
         "title": "Duolingo",
         "companyName": "Duolingo, Inc.",
         "id": 30,

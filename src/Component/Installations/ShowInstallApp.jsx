@@ -3,6 +3,7 @@ import down from '../../assets/icon-downloads.png';
 import star from '../../assets/icon-ratings.png';
 import './Installation.css';
 import { getStoredApp } from '../Storage/storeData';
+import { toast } from 'react-toastify';
 
 const ShowInstallApp = ({ inst }) => {
     const { image, title, downloads, ratingAvg, id, size } = inst;
@@ -12,6 +13,7 @@ const ShowInstallApp = ({ inst }) => {
         const ConvertedStoredAppId = storedAppData.map(idNum => parseInt(idNum));
         const updatedApps = ConvertedStoredAppId.filter(appId => appId !== id);
         localStorage.setItem('installed', JSON.stringify(updatedApps));
+        toast('Uninstall done.Click reload button')
         // console.log(`App ID ${id} uninstalled`);
     };
 
