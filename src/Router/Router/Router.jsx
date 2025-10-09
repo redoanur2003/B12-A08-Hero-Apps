@@ -6,6 +6,7 @@ import App from '../../Component/Apps/App';
 import Installation from '../../Component/Installations/Installation';
 import Error from '../../Component/ErrorPage/Error';
 import SingleApp from '../../Component/SingleApp/SingleApp';
+import ErrorApp from '../../Component/ErrorApp/ErrorApp';
 
 
 export const router = createBrowserRouter([
@@ -13,21 +14,27 @@ export const router = createBrowserRouter([
         path: '/',
         Component: Root,
         errorElement: <Error></Error>,
+        hydrateFallbackElement: <h1 className='text-5xl'>Loading.....................</h1>,
         children: [
             {
                 index: true, path: '/', Component: Home,
-                loader: () => fetch('homeApps.json')
+                loader: () => fetch('/homeApps.json')
             },
             {
                 path: '/app', Component: App,
-                loader: () => fetch('allApps.json')
+                loader: () => fetch('/allApps.json')
             },
             {
-                path: '/app/:appId',
-                loader: () => fetch('allApps.json'),
-                Component: SingleApp
+                path: 'app/:appId',
+                loader: () => fetch('/allApps.json'),
+                Component: SingleApp,
+                errorElement: <ErrorApp></ErrorApp>
             },
-            { path: 'installation', Component: Installation }
+            {
+                path: 'installation',
+                loader: () => fetch('/allApps.json'),
+                Component: Installation
+            }
         ]
     }
 ])

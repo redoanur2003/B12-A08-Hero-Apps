@@ -1,18 +1,39 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import down from '../../assets/icon-downloads.png';
 import star from '../../assets/icon-ratings.png';
 import rev from '../../assets/icon-review.png';
 import './SingleApp.css';
 import Chart from './Chart';
+import { addToStoredApp, getStoredApp } from '../Storage/storeData';
 
 const SingleApp = () => {
     const { appId } = useParams();
     const data = useLoaderData();
     const convertId = parseInt(appId);
     const findApp = data.find(app => app.id === convertId);
+    const [isInstalled, setIsInstalled] = useState(false);
 
-    const { image, title, downloads, ratingAvg, companyName, reviews, size, description, ratings } = findApp;
+    useEffect(() => {
+        const storedApps = getStoredApp();
+        if (storedApps.includes(convertId)) {
+            setIsInstalled(true);
+        }
+    }, [convertId]);
+
+    const handleClick = (id) => {
+
+        const storedApps = getStoredApp();
+        if (storedApps.includes(id)) {
+            alert('App already installed')
+        } else {
+            addToStoredApp(id);
+            setIsInstalled(true);
+        }
+        // localStorage.clear('installed')
+    };
+
+    const { image, title, downloads, ratingAvg, id, companyName, reviews, size, description, ratings } = findApp;
 
     return (
         <div className="p-4">
@@ -24,7 +45,7 @@ const SingleApp = () => {
 
                 <div className="flex-1 w-full">
                     <div className="border-b border-gray-300 pb-2 mb-4 text-center md:text-left">
-                        <h3 className="text-2xl font-semibold">{title}</h3>
+                        <h3 className="text-2xl font-semibold">Apps name: {title}</h3>
                         <p className="text-gray-600 text-lg">Developed by: {companyName}</p>
                     </div>
 
@@ -42,15 +63,15 @@ const SingleApp = () => {
                         </div>
 
                         <div>
-                            <img className="mx-auto md: w-8 h-8" src={rev} alt="Reviews" />
+                            <img className="mx-auto md:mx-0 w-8 h-8" src={rev} alt="Reviews" />
                             <p className="text-gray-500 text-sm">Total Reviews</p>
                             <h3 className="text-lg font-semibold">{reviews}</h3>
                         </div>
                     </div>
 
                     <div className="text-center md:text-left">
-                        <button className="btn bgColor px-6 py-2 font-medium">
-                            Install Now ({size} MB)
+                        <button onClick={() => handleClick(id)} className="btn bgColor px-6 py-2 font-medium">
+                            {isInstalled ? 'Installed' : `Install Now (${size} MB)`}
                         </button>
                     </div>
                 </div>
