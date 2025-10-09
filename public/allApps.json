@@ -1,0 +1,992 @@
+[
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+        "title": "WhatsApp Messenger",
+        "companyName": "WhatsApp LLC",
+        "id": 1,
+        "description": "WhatsApp Messenger is a free messaging and video calling application that enables users to stay connected with friends and family across the world. It allows real-time communication, group chats, media sharing, end-to-end encryption for privacy, voice messages, status stories, and cross-platform synchronization. Often updated to fix security issues and add new features such as disappearing messages and payment integration depending on region.",
+        "size": 120.0,
+        "reviews": 152000000,
+        "ratingAvg": 4.5,
+        "downloads": 5,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1200000
+            },
+            {
+                "name": "2 star",
+                "count": 3500000
+            },
+            {
+                "name": "3 star",
+                "count": 7000000
+            },
+            {
+                "name": "4 star",
+                "count": 22000000
+            },
+            {
+                "name": "5 star",
+                "count": 122000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+        "title": "Instagram",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 2,
+        "description": "Instagram is a social network for photo & video sharing, allowing users to capture moments, apply filters, create reels, share stories that disappear after 24 hours, go live, and interact with community through likes, comments, direct messages. Also integrates shopping within the app, creator tools, monetization options for influencers, and algorithmic feed based on user interests.",
+        "size": 160.0,
+        "reviews": 125000000,
+        "ratingAvg": 4.3,
+        "downloads": 3,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4200000
+            },
+            {
+                "name": "2 star",
+                "count": 6500000
+            },
+            {
+                "name": "3 star",
+                "count": 12000000
+            },
+            {
+                "name": "4 star",
+                "count": 29000000
+            },
+            {
+                "name": "5 star",
+                "count": 73000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968830.png",
+        "title": "Spotify Music",
+        "companyName": "Spotify AB",
+        "id": 3,
+        "description": "Spotify is a top music streaming platform offering millions of songs, playlists, podcasts, and audio content across genres. Users can search, discover new music via personalized daily mixes, listen offline (with premium), enjoy various audio quality options, and share content with friends. Also supports podcasts, live audio, and exclusive content in some markets.",
+        "size": 90.0,
+        "reviews": 98000000,
+        "ratingAvg": 4.4,
+        "downloads": 1,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2800000
+            },
+            {
+                "name": "2 star",
+                "count": 4100000
+            },
+            {
+                "name": "3 star",
+                "count": 8500000
+            },
+            {
+                "name": "4 star",
+                "count": 25000000
+            },
+            {
+                "name": "5 star",
+                "count": 60000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968534.png",
+        "title": "YouTube",
+        "companyName": "Google LLC",
+        "id": 4,
+        "description": "YouTube is the world’s largest video platform for uploading, watching, and sharing videos. Content spans music, education, DIY, entertainment, news etc. The app provides recommendation systems, ability to subscribe to channels, comment, share, live streaming, YouTube Premium to remove ads, download content for offline viewing, and background play in mobiles.",
+        "size": 180.0,
+        "reviews": 210000000,
+        "ratingAvg": 4.5,
+        "downloads": 1,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2500000
+            },
+            {
+                "name": "2 star",
+                "count": 5200000
+            },
+            {
+                "name": "3 star",
+                "count": 9800000
+            },
+            {
+                "name": "4 star",
+                "count": 36000000
+            },
+            {
+                "name": "5 star",
+                "count": 160000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384015.png",
+        "title": "Facebook",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 5,
+        "description": "Facebook is a social networking platform that allows users to connect with friends & family, share posts, photos & videos, make events, join groups, use marketplace, watch videos, follow pages, interact via comments/reactions. It also includes advertisement, business pages, news feed, live video, stories, and privacy settings to control who sees content.",
+        "size": 200.0,
+        "reviews": 170000000,
+        "ratingAvg": 4.1,
+        "downloads": 5,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 8200000
+            },
+            {
+                "name": "2 star",
+                "count": 9500000
+            },
+            {
+                "name": "3 star",
+                "count": 11000000
+            },
+            {
+                "name": "4 star",
+                "count": 28000000
+            },
+            {
+                "name": "5 star",
+                "count": 112000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+        "title": "X (Twitter)",
+        "companyName": "X Corp.",
+        "id": 6,
+        "description": "X, formerly known as Twitter, is a platform for short text posts, images, video, and live interactions. It delivers trending topics, news, media, user engagement through replies, likes, retweets (shares), and allows verified accounts, spaces (live audio), monetization via subscriptions, value for creators, etc. The feed algorithm tries to prioritize content based on interests, engagement metrics, and relevance.",
+        "size": 110.0,
+        "reviews": 89000000,
+        "ratingAvg": 4.2,
+        "downloads": 15,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3500000
+            },
+            {
+                "name": "2 star",
+                "count": 5000000
+            },
+            {
+                "name": "3 star",
+                "count": 9000000
+            },
+            {
+                "name": "4 star",
+                "count": 22000000
+            },
+            {
+                "name": "5 star",
+                "count": 50000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/300/300221.png",
+        "title": "Gmail",
+        "companyName": "Google LLC",
+        "id": 7,
+        "description": "Gmail is Google’s email service offering robust features: free email, threaded conversations, spam filtering, priority sort, undo send, smart compose, integration with other Google services, sync across devices, offline access, strong security. It’s often used both personally and professionally.",
+        "size": 130.0,
+        "reviews": 115000000,
+        "ratingAvg": 4.6,
+        "downloads": 5,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500000
+            },
+            {
+                "name": "2 star",
+                "count": 2500000
+            },
+            {
+                "name": "3 star",
+                "count": 7000000
+            },
+            {
+                "name": "4 star",
+                "count": 20000000
+            },
+            {
+                "name": "5 star",
+                "count": 85000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968872.png",
+        "title": "TikTok",
+        "companyName": "ByteDance Ltd.",
+        "id": 8,
+        "description": "TikTok is a short-form video platform where users create, share, and view bite-sized clips often combined with music, effects, and filters. It has become popular for viral challenges, trends, lip-syncs, educational snippets, comedic content, and a strong recommendation algorithm. Offers live streaming, monetization, duets, green screen filters, etc.",
+        "size": 150.0,
+        "reviews": 99000000,
+        "ratingAvg": 4.4,
+        "downloads": 3,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4000000
+            },
+            {
+                "name": "2 star",
+                "count": 6000000
+            },
+            {
+                "name": "3 star",
+                "count": 8000000
+            },
+            {
+                "name": "4 star",
+                "count": 24000000
+            },
+            {
+                "name": "5 star",
+                "count": 61000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968853.png",
+        "title": "Netflix",
+        "companyName": "Netflix, Inc.",
+        "id": 9,
+        "description": "Netflix is a major streaming service that offers a wide variety of TV shows, movies, documentaries, and original content. Users can stream in multiple devices, download content for offline access, set parental controls, and have multiple profiles. The recommendation engine, genre collections, and continual release of new original content keep users coming back.",
+        "size": 210.0,
+        "reviews": 134000000,
+        "ratingAvg": 4.5,
+        "downloads": 2,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3000000
+            },
+            {
+                "name": "2 star",
+                "count": 4000000
+            },
+            {
+                "name": "3 star",
+                "count": 9000000
+            },
+            {
+                "name": "4 star",
+                "count": 24000000
+            },
+            {
+                "name": "5 star",
+                "count": 94000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888846.png",
+        "title": "Snapchat",
+        "companyName": "Snap Inc.",
+        "id": 10,
+        "description": "Snapchat is a multimedia messaging app that focuses on real-time photo/video sharing and stories that disappear. It includes AR lenses, filters, bitmoji avatars, private chats that vanish, discover features (publisher content), and snap maps. Appeals heavily to younger audiences looking for ephemeral content and creative tools.",
+        "size": 140.0,
+        "reviews": 64000000,
+        "ratingAvg": 4.2,
+        "downloads": 100,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2400000
+            },
+            {
+                "name": "2 star",
+                "count": 4200000
+            },
+            {
+                "name": "3 star",
+                "count": 7500000
+            },
+            {
+                "name": "4 star",
+                "count": 18000000
+            },
+            {
+                "name": "5 star",
+                "count": 31000000
+            }
+        ]
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png",
+        "title": "Telegram",
+        "companyName": "Telegram FZ-LLC",
+        "id": 11,
+        "description": "Telegram is a cloud-based messaging app known for speed and security. Offers features such as encrypted chats, secret chats, self-destructing messages, channels for broadcasting, bots, large group support, file sharing of large sizes, multi-device sync, voice calls, video calls, and more. Also frequently adds stickers, animated emojis, video messages, and themes.",
+        "size": 95.0,
+        "reviews": 78000000,
+        "ratingAvg": 4.5,
+        "downloads": 80,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2500000
+            },
+            {
+                "name": "2 star",
+                "count": 4000000
+            },
+            {
+                "name": "3 star",
+                "count": 9000000
+            },
+            {
+                "name": "4 star",
+                "count": 20000000
+            },
+            {
+                "name": "5 star",
+                "count": 60000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+        "title": "Zoom",
+        "companyName": "Zoom Video Communications",
+        "id": 12,
+        "description": "Zoom is a video conferencing tool designed for meetings, webinars, and virtual events. It supports HD video and audio, screen sharing, virtual backgrounds, breakout rooms, meeting recording, and collaboration features. Used widely for remote work, education, and team meetings, with mobile and desktop clients, end-to-end encryption in some plans, and integration with calendars and third-party apps.",
+        "size": 150.0,
+        "reviews": 53000000,
+        "ratingAvg": 4.4,
+        "downloads": 40,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1800000
+            },
+            {
+                "name": "2 star",
+                "count": 2700000
+            },
+            {
+                "name": "3 star",
+                "count": 7000000
+            },
+            {
+                "name": "4 star",
+                "count": 15000000
+            },
+            {
+                "name": "5 star",
+                "count": 28300000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+        "title": "LinkedIn",
+        "companyName": "LinkedIn Corporation",
+        "id": 13,
+        "description": "LinkedIn is a professional networking platform enabling users to connect, share, and explore jobs, content, and professional opportunities. Features include user profiles, company pages, job postings, direct messaging, articles, learning courses, events, and networking tools. Widely used in recruitment, career building, and industry knowledge sharing.",
+        "size": 120.0,
+        "reviews": 45000000,
+        "ratingAvg": 4.3,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900000
+            },
+            {
+                "name": "2 star",
+                "count": 1100000
+            },
+            {
+                "name": "3 star",
+                "count": 3200000
+            },
+            {
+                "name": "4 star",
+                "count": 10000000
+            },
+            {
+                "name": "5 star",
+                "count": 33000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384017.png",
+        "title": "Pinterest",
+        "companyName": "Pinterest, Inc.",
+        "id": 14,
+        "description": "Pinterest is a visual discovery engine where users browse, save, and share images and ideas (‘pins’) across topics like home décor, recipes, fashion, travel, and DIY. Users can create boards, follow other users or topics, discover inspirations, shop for items, and upload their own images. Helps with creativity and planning visual projects.",
+        "size": 140.0,
+        "reviews": 42000000,
+        "ratingAvg": 4.4,
+        "downloads": 70,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800000
+            },
+            {
+                "name": "2 star",
+                "count": 1200000
+            },
+            {
+                "name": "3 star",
+                "count": 3200000
+            },
+            {
+                "name": "4 star",
+                "count": 10000000
+            },
+            {
+                "name": "5 star",
+                "count": 27500000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888848.png",
+        "title": "Skype",
+        "companyName": "Microsoft Corporation",
+        "id": 15,
+        "description": "Skype is a communication app offering voice calls, video calls, group conference calls, messaging, file sharing, screen sharing. It allows calling phones in certain plans, voicemail, live subtitles, translation in some languages, and works across devices. Once highly popular for remote communication, still used in business and personal contexts.",
+        "size": 100.0,
+        "reviews": 32000000,
+        "ratingAvg": 4.2,
+        "downloads": 10,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1200000
+            },
+            {
+                "name": "2 star",
+                "count": 1900000
+            },
+            {
+                "name": "3 star",
+                "count": 5000000
+            },
+            {
+                "name": "4 star",
+                "count": 10000000
+            },
+            {
+                "name": "5 star",
+                "count": 7800000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888833.png",
+        "title": "Dropbox",
+        "companyName": "Dropbox, Inc.",
+        "id": 16,
+        "description": "Dropbox is a file hosting and synchronization service that lets users store, share, and access files from multiple devices. Includes features like automatic backups, shared folders, version history, offline access, document preview, collaboration, and integrations with productivity tools. Many use it for work, studies, and personal file storage.",
+        "size": 85.0,
+        "reviews": 18000000,
+        "ratingAvg": 4.3,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600000
+            },
+            {
+                "name": "2 star",
+                "count": 900000
+            },
+            {
+                "name": "3 star",
+                "count": 2200000
+            },
+            {
+                "name": "4 star",
+                "count": 6000000
+            },
+            {
+                "name": "5 star",
+                "count": 16000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+        "title": "Google Drive",
+        "companyName": "Google LLC",
+        "id": 17,
+        "description": "Google Drive is a cloud storage service for storing documents, photos, videos, and other files in the cloud. Offers generous free storage with paid upgrades, file sharing, collaborative editing, integration with Google Docs/Sheets/Slides, automatic backup of mobile device photos, offline access, and strong syncing across platforms.",
+        "size": 115.0,
+        "reviews": 27000000,
+        "ratingAvg": 4.5,
+        "downloads": 120,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 700000
+            },
+            {
+                "name": "2 star",
+                "count": 1100000
+            },
+            {
+                "name": "3 star",
+                "count": 3000000
+            },
+            {
+                "name": "4 star",
+                "count": 9000000
+            },
+            {
+                "name": "5 star",
+                "count": 16700000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888825.png",
+        "title": "Google Maps",
+        "companyName": "Google LLC",
+        "id": 18,
+        "description": "Google Maps provides navigation, real-time traffic updates, route planning for driving, walking, transit, biking; street view imagery; business details; offline maps; local business ratings/reviews; indoor maps for some venues; public transit schedules; and integration with other apps and services. Widely used for travel, planning, local discovery.",
+        "size": 145.0,
+        "reviews": 98000000,
+        "ratingAvg": 4.6,
+        "downloads": 500,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2200000
+            },
+            {
+                "name": "2 star",
+                "count": 3100000
+            },
+            {
+                "name": "3 star",
+                "count": 8000000
+            },
+            {
+                "name": "4 star",
+                "count": 25000000
+            },
+            {
+                "name": "5 star",
+                "count": 42300000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888840.png",
+        "title": "Google Photos",
+        "companyName": "Google LLC",
+        "id": 19,
+        "description": "Google Photos is a photo storage and sharing service that offers unlimited or paid high-quality backups, smart albums, photo editing tools, auto-enhancements, search by image content, sharing of albums or photos with others, memories, animation, and integration with Google services. Also works offline for viewing and basic editing.",
+        "size": 130.0,
+        "reviews": 54,
+        "ratingAvg": 4.4,
+        "downloads": 2000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900000
+            },
+            {
+                "name": "2 star",
+                "count": 1300000
+            },
+            {
+                "name": "3 star",
+                "count": 4000000
+            },
+            {
+                "name": "4 star",
+                "count": 15000000
+            },
+            {
+                "name": "5 star",
+                "count": 38500000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888849.png",
+        "title": "Uber",
+        "companyName": "Uber Technologies Inc.",
+        "id": 20,
+        "description": "Uber is a ride-sharing and delivery app that connects riders with drivers. Features include scheduling rides, fare estimates, map integration, driver tracking, trip history, safety features, ride types (economy, premium), fare splitting in some regions, and also integration with Uber Eats for food delivery in many locations.",
+        "size": 98.0,
+        "reviews": 37000000,
+        "ratingAvg": 4.2,
+        "downloads": 100,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1200000
+            },
+            {
+                "name": "2 star",
+                "count": 1800000
+            },
+            {
+                "name": "3 star",
+                "count": 4500000
+            },
+            {
+                "name": "4 star",
+                "count": 12000000
+            },
+            {
+                "name": "5 star",
+                "count": 19300000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888866.png",
+        "title": "Spotify Podcasts",
+        "companyName": "Spotify AB",
+        "id": 21,
+        "description": "Spotify Podcasts is part of the Spotify platform giving users access to spoken-word content: talk shows, interviews, educational content, news, storytelling, etc. Allows subscribing to podcasts, downloading episodes, creating playlists, and also mixing with music content. Works offline and gives recommendations based on listening history.",
+        "size": 70.0,
+        "reviews": 15000000,
+        "ratingAvg": 4.4,
+        "downloads": 40,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500000
+            },
+            {
+                "name": "2 star",
+                "count": 800000
+            },
+            {
+                "name": "3 star",
+                "count": 2100000
+            },
+            {
+                "name": "4 star",
+                "count": 7500000
+            },
+            {
+                "name": "5 star",
+                "count": 360000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888893.png",
+        "title": "Steam",
+        "companyName": "Valve Corporation",
+        "id": 22,
+        "description": "Steam is a digital distribution platform for games and software. Users can purchase, download, organize, and play games; interact with community hubs; share content via screenshots and mods; wish-lists; regular sales/discounts; cloud saves; achievements; multi-platform support. Also offers developer tools and streaming services in some regions.",
+        "size": 200.0,
+        "reviews": 45000000,
+        "ratingAvg": 4.6,
+        "downloads": 60,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500000
+            },
+            {
+                "name": "2 star",
+                "count": 2200000
+            },
+            {
+                "name": "3 star",
+                "count": 5500000
+            },
+            {
+                "name": "4 star",
+                "count": 15000000
+            },
+            {
+                "name": "5 star",
+                "count": 260000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888850.png",
+        "title": "WhatsApp Business",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 23,
+        "description": "WhatsApp Business is a variant of WhatsApp tailored for small business owners to communicate with customers. Includes business profile, catalog, message automation tools (greeting, away, quick replies), labels for chats, metrics, and tools for more professional handling of customer messages. Supports same messaging features plus business-oriented functions.",
+        "size": 130.0,
+        "reviews": 22000000,
+        "ratingAvg": 4.4,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500000
+            },
+            {
+                "name": "2 star",
+                "count": 900000
+            },
+            {
+                "name": "3 star",
+                "count": 2000000
+            },
+            {
+                "name": "4 star",
+                "count": 6000000
+            },
+            {
+                "name": "5 star",
+                "count": 206000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888894.png",
+        "title": "Discord",
+        "companyName": "Discord, Inc.",
+        "id": 24,
+        "description": "Discord is a voice, video, and text communication platform originally built for gamers, now used broadly for communities. Offers servers with channels, roles, voice channels, video calls, screen sharing, streaming, bots, integrations, and rich chat features. Emphasizes community moderation, customization, and real-time interaction.",
+        "size": 115.0,
+        "reviews": 38000000,
+        "ratingAvg": 4.5,
+        "downloads": 80,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800000
+            },
+            {
+                "name": "2 star",
+                "count": 1200000
+            },
+            {
+                "name": "3 star",
+                "count": 3000000
+            },
+            {
+                "name": "4 star",
+                "count": 10000000
+            },
+            {
+                "name": "5 star",
+                "count": 339000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+        "title": "Microsoft Teams",
+        "companyName": "Microsoft Corporation",
+        "id": 25,
+        "description": "Microsoft Teams is a collaboration and communication platform for workplace. Features include group chats, channels, video conferencing, file sharing, collaboration on Office documents, meetings, webinars, integrations with other Microsoft 365 tools, and enterprise level security, permissions, and compliance controls. Often used in organizations for remote work, schooling, and large-scale collaboration.",
+        "size": 140.0,
+        "reviews": 29000000,
+        "ratingAvg": 4.3,
+        "downloads": 30,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600000
+            },
+            {
+                "name": "2 star",
+                "count": 1000000
+            },
+            {
+                "name": "3 star",
+                "count": 3000000
+            },
+            {
+                "name": "4 star",
+                "count": 9000000
+            },
+            {
+                "name": "5 star",
+                "count": 270000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888858.png",
+        "title": "Slack",
+        "companyName": "Slack Technologies",
+        "id": 26,
+        "description": "Slack is a messaging app for teams and workplaces to collaborate. Features include channels, direct messaging, file sharing, voice/video calls, integration with third-party apps (bots, workflows), searchable history, threads, and workspace organization. Highly adopted for its integrations and productivity features.",
+        "size": 95.0,
+        "reviews": 26000000,
+        "ratingAvg": 4.4,
+        "downloads": 40,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600000
+            },
+            {
+                "name": "2 star",
+                "count": 800000
+            },
+            {
+                "name": "3 star",
+                "count": 2500000
+            },
+            {
+                "name": "4 star",
+                "count": 8000000
+            },
+            {
+                "name": "5 star",
+                "count": 240000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888920.png",
+        "title": "Audible",
+        "companyName": "Audible, Inc.",
+        "id": 27,
+        "description": "Audible is an audiobook service offering thousands of books, originals, and audio content. Users can purchase or subscribe for access, listen offline, adjust narration speed, bookmark positions, and explore curated recommendations, categories, samples, and exclusive content. Works well for long-form listening experiences (stories, learning, etc.).",
+        "size": 110.0,
+        "reviews": 21000000,
+        "ratingAvg": 4.6,
+        "downloads": 60,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300000
+            },
+            {
+                "name": "2 star",
+                "count": 500000
+            },
+            {
+                "name": "3 star",
+                "count": 1500000
+            },
+            {
+                "name": "4 star",
+                "count": 6000000
+            },
+            {
+                "name": "5 star",
+                "count": 585000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888885.png",
+        "title": "Kindle",
+        "companyName": "Amazon.com, Inc.",
+        "id": 28,
+        "description": "Kindle app offers digital reading of books, newspapers, and magazines. Users can purchase, download ebooks, highlight passages, make notes, customize reading settings (font size, background, layout), sync progress across devices, and store books in cloud. Also supports audiobooks in some markets and access to user’s library from multiple platforms.",
+        "size": 90.0,
+        "reviews": 26000000,
+        "ratingAvg": 4.5,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 400000
+            },
+            {
+                "name": "2 star",
+                "count": 700000
+            },
+            {
+                "name": "3 star",
+                "count": 2000000
+            },
+            {
+                "name": "4 star",
+                "count": 8000000
+            },
+            {
+                "name": "5 star",
+                "count": 480000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888846.png",
+        "title": "HBO Max",
+        "companyName": "WarnerMedia",
+        "id": 29,
+        "description": "HBO Max is a streaming platform offering premium movies, series, documentaries, and exclusive originals. Users can stream in high definition, download content for offline viewing, browse curated collections, discover new titles, and enjoy content tailored by region. Offers parental controls, multiple profiles, and content recommendations.",
+        "size": 190.0,
+        "reviews": 24000000,
+        "ratingAvg": 4.4,
+        "downloads": 80,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500000
+            },
+            {
+                "name": "2 star",
+                "count": 700000
+            },
+            {
+                "name": "3 star",
+                "count": 2200000
+            },
+            {
+                "name": "4 star",
+                "count": 8000000
+            },
+            {
+                "name": "5 star",
+                "count": 780000000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888927.png",
+        "title": "Duolingo",
+        "companyName": "Duolingo, Inc.",
+        "id": 30,
+        "description": "Duolingo is a language learning app with bite-sized lessons in many languages. It offers interactive exercises, listening, speaking, reading, and writing practice, gamification such as streaks and rewards, leaderboards, and review of past lessons. It also includes periodically updated courses, challenges to keep learners motivated, and supports offline usage in many cases.",
+        "size": 85.0,
+        "reviews": 35000000,
+        "ratingAvg": 4.7,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600000
+            },
+            {
+                "name": "2 star",
+                "count": 900000
+            },
+            {
+                "name": "3 star",
+                "count": 2100000
+            },
+            {
+                "name": "4 star",
+                "count": 9000000
+            },
+            {
+                "name": "5 star",
+                "count": 431000000
+            }
+        ]
+    }
+]

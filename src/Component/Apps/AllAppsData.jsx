@@ -1,10 +1,8 @@
 import React from 'react';
-import down from '../../../assets/icon-downloads.png'
-import star from '../../../assets/icon-ratings.png'
-
-const ShowApps = ({ appsData }) => {
-    // console.log(apps)
-    const { image, title, downloads, ratingAvg } = appsData;
+import down from '../../assets/icon-downloads.png'
+import star from '../../assets/icon-ratings.png'
+const AllAppsData = ({ allData }) => {
+    const { image, title, downloads, ratingAvg } = allData;
     return (
         <div>
             <div className=' p-4 w-auto h-auto bg-white rounded-xl shadow-xl'>
@@ -26,4 +24,4 @@ const ShowApps = ({ appsData }) => {
     );
 };
 
-export default ShowApps;
+export default AllAppsData;
