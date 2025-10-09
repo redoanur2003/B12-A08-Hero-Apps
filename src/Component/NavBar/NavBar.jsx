@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import image from '../../assets/logo.png';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import './NavBar.css';
 import { GithubIcon, Menu, X } from 'lucide-react';
 
@@ -12,9 +12,9 @@ const NavBar = () => {
         <nav className='flex item-center justify-around shadow-xl p-3 gap-6 m-3'>
             <div>
                 <NavLink to='/'>
-                    <div className='flex gap-2'>
+                    <div className='flex gap-2 navbar-start'>
                         <img className='w-10' src={image} alt="" />
-                        <h3 className='text_color mt-1'>HERO.IO</h3>
+                        <h3 className='text_color'>HERO.IO</h3>
                     </div>
                 </NavLink>
                 <div className='w-4 md:hidden' onClick={() => setState(!state)}>
@@ -34,7 +34,7 @@ const NavBar = () => {
                 </div>
 
             </div>
-            <ul className='hidden md:flex gap-6 '>
+            <ul className='hidden md:flex gap-6 navbar-end '>
                 <li><NavLink to='/' className={({ isActive }) => isActive ? "text-blue-500 underline font-semibold text-xl" :
                     "text-gray-700 hover:text-blue-400 text-xl"}> Home</NavLink>
 
@@ -44,8 +44,9 @@ const NavBar = () => {
                 <li><NavLink to='/installation' className={({ isActive }) => isActive ? "text-blue-500 underline font-semibold text-xl" :
                     "text-gray-700 hover:text-blue-400 text-xl"}> Installation</NavLink></li>
             </ul>
-            <div className='flex'>
-                <button className='btn p-2 btn-primary'> <GithubIcon></GithubIcon>Contribute</button>
+            <div className='flex navbar-end'>
+                <Link to={'https://github.com/redoanur2003/B12-A08-Hero-Apps'}><button className='btn p-2 btn-primary'> <GithubIcon></GithubIcon>Contribute</button>
+                </Link>
             </div>
         </nav>
     );

@@ -6,7 +6,7 @@ import { NavLink } from 'react-router';
 
 const Footer = () => {
     return (
-        <div className='bg-black text-white p-3 mt-20'>
+        <div className=' w-auto md: bg-black text-white p-3 mt-20'>
             <div className='flex justify-between'>
                 <div>
                     <NavLink to='/'>

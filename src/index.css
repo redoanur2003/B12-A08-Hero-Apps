@@ -1,12 +1,8 @@
 @plugin "daisyui";
 @import "tailwindcss";
 
-
-
 :root {
   background-color: white;
-  margin: 0 auto;
-  max-width: 1440px;
   color: black;
 
 }
