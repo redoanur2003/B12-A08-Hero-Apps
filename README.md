@@ -1,16 +1,24 @@
-# React + Vite
+App Name: Hero.IO App Store
+--------------------------------------------------
+Description:
+---------------
+Hero.IO App Store is a modern, responsive web application that lets users explore, install, and uninstall their apps in one place.
+It features smooth navigation, live search, sorting, installation tracking, and interactive charts to visualize user ratings.
+Users can browse top apps, check app details, and even manage their installed applications — all in a sleek and user-friendly interface inspired by the Hero IO concept.
+------------------------------------------------------------------------------------------------------------------------------------
+Technologies Used:
+--------------------
+React – UI and component structure
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Router DOM – page routing and navigation
 
-Currently, two official plugins are available:
+Recharts – data visualization for app reviews
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tailwind CSS – responsive and modern styling
 
-## React Compiler
+LocalStorage API – for saving installed app id.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sweetalert2-for success install and uninstall notifications.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vite – for fast development and optimized builds
+------------------------------------------------------------

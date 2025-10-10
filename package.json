@@ -18,6 +18,9 @@
     "react-spinners": "^0.17.0",
     "react-toastify": "^11.0.5",
     "recharts": "^3.2.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.26.0",
+    "sweetalert2-react-content": "^5.1.0",
     "tailwindcss": "^4.1.14"
   },
   "devDependencies": {

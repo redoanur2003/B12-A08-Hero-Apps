@@ -6,7 +6,11 @@ import rev from '../../assets/icon-review.png';
 import './SingleApp.css';
 import Chart from './Chart';
 import { addToStoredApp, getStoredApp } from '../Storage/storeData';
-import { toast } from 'react-toastify';
+// import { toast, ToastContainer } from 'react-toastify';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal)
 
 const SingleApp = () => {
     const { appId } = useParams();
@@ -27,13 +31,28 @@ const SingleApp = () => {
         const storedApps = getStoredApp();
         if (storedApps.includes(id)) {
             console.log("what");
-            toast('App already Installed🤔');
+            // toast('App already Installed🤔');
+            MySwal.fire({
+                position: "top",
+                icon: "success",
+                title: "App already Installed🤔",
+                showConfirmButton: false,
+                timer: 2000
+            });
+
         } else {
             addToStoredApp(id);
             console.log("ok");
 
             setIsInstalled(true);
-            toast('App Installed Successfully!');
+            // toast('App Installed Successfully!');
+            MySwal.fire({
+                position: "top",
+                icon: "success",
+                title: "App Installed Successfully🎉🎉",
+                showConfirmButton: false,
+                timer: 2000
+            });
         }
         // localStorage.clear('installed')
     };
@@ -78,6 +97,7 @@ const SingleApp = () => {
                         <button onClick={() => handleClick(id)} className="btn bgColor px-6 py-2 font-medium">
                             {isInstalled ? 'Installed' : `Install Now (${size} MB)`}
                         </button>
+                        {/* <ToastContainer></ToastContainer> */}
                     </div>
                 </div>
             </div>

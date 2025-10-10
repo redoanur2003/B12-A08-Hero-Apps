@@ -3,7 +3,11 @@ import down from '../../assets/icon-downloads.png';
 import star from '../../assets/icon-ratings.png';
 import './Installation.css';
 import { getStoredApp } from '../Storage/storeData';
-import { toast } from 'react-toastify';
+// import { toast, ToastContainer } from 'react-toastify';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal)
 
 const ShowInstallApp = ({ inst }) => {
     const { image, title, downloads, ratingAvg, id, size } = inst;
@@ -13,7 +17,15 @@ const ShowInstallApp = ({ inst }) => {
         const ConvertedStoredAppId = storedAppData.map(idNum => parseInt(idNum));
         const updatedApps = ConvertedStoredAppId.filter(appId => appId !== id);
         localStorage.setItem('installed', JSON.stringify(updatedApps));
-        toast('Uninstall done.Click reload button')
+        // toast('Uninstall done.Click reload button')
+        MySwal.fire({
+            position: "top",
+            icon: "success",
+            title: "App uninstall is done.Click reload button",
+            showConfirmButton: false,
+            timer: 2000
+        });
+
         // console.log(`App ID ${id} uninstalled`);
     };
 
@@ -53,6 +65,7 @@ const ShowInstallApp = ({ inst }) => {
                     <button onClick={() => handleUninstall(id)} className="btn bgColor px-6 py-2 font-medium">
                         Uninstall
                     </button>
+                    {/* <ToastContainer></ToastContainer> */}
                 </div>
             </div>
         </div>
