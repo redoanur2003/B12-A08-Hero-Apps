@@ -52,16 +52,7 @@ const Installation = () => {
             </div>
 
             <div>
-                {installed.map(inst =>
-                    <ShowInstallApp key={inst.id} inst={inst}></ShowInstallApp>
-                )}
-            </div>
-
-            <div className={`flex mt-6 flex-col text-center justify-center ${installed.length === 0 ? 'hidden' : 'visible'}`}>
-                <p className='text-xl font-semibold'>Reload the page to check the app is uninstalled.</p>
-                <NavLink to='/installation'>
-                    <button className='btn'>Reload</button>
-                </NavLink>
+                <ShowInstallApp setInstalled={setInstalled} data={data}></ShowInstallApp>
             </div>
         </div>
     );
