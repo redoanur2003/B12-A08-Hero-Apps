@@ -23,7 +23,7 @@ const ShowInstallApp = ({ data, setInstalled }) => {
         const updatedApps = ConvertedStoredAppId.filter(appId => appId !== id);
         localStorage.setItem('installed', JSON.stringify(updatedApps));
         setInstalledApp(updatedApps);
-        setInstalled(updatedApps);
+        setInstalled(prev => prev.filter(app => app.id !== id));
         // toast('Uninstall done.Click reload button')
         MySwal.fire({
             position: "top",

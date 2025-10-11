@@ -26,7 +26,7 @@ const Installation = () => {
             // console.log(sortedByHigh)
         }
         if (type === "Low") {
-            type = 'Loe to High'
+            type = 'Low to High'
             setSort(type);
             const sortedByLow = [...installed].sort((a, b) => a.size - b.size);
             setInstalled(sortedByLow);
@@ -52,7 +52,7 @@ const Installation = () => {
             </div>
 
             <div>
-                <ShowInstallApp setInstalled={setInstalled} data={data}></ShowInstallApp>
+                <ShowInstallApp setInstalled={setInstalled} data={installed}></ShowInstallApp>
             </div>
         </div>
     );
